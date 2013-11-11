@@ -141,7 +141,7 @@
 двигать | move
 с-ресайз | n-resize
 св-ресайз | ne-resize
-свюз | nesw-resize
+свюз-ресайз | nesw-resize
 не-закрывать-кавычки | no-close-quote
 не-сбрасывать | no-drop
 не-открывать-кавычки | no-open-quote
@@ -184,7 +184,7 @@
 ю-ресайз | s-resize
 {уменьшить,уменьшать} | scale-down
 скролл | scroll
-юз-ресайз | se-resize
+юв-ресайз | se-resize
 полу-конденсирован | semi-condensed
 полу-расширен | semi-expanded
 отдельн{ый,ая,ое} | separate

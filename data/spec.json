@@ -2,6 +2,7 @@
     {
         "before": "\\b",
         "after": "\\b",
+        "prefixed": false,
         "content": {
             "a": "я",
             "abbr": "аббр",
@@ -133,6 +134,7 @@
     {
         "before": ":",
         "after": "\\b",
+        "prefixed": true,
         "content": {
             "link": "ссылка",
             "visited": "посещен",
@@ -155,6 +157,7 @@
     {
         "before": "\\b",
         "after": "\\s*:",
+        "prefixed": true,
         "content": {
             "keyframes": "ключевыекадры",
             "animation": "анимация",
@@ -377,6 +380,7 @@
     {
         "before": "(?:\\b)?",
         "after": "\\b",
+        "prefixed": true,
         "content": {
             "above": "выше",
             "absolute": [
@@ -599,7 +603,7 @@
             "move": "двигать",
             "n-resize": "с-ресайз",
             "ne-resize": "св-ресайз",
-            "nesw-resize": "свюз",
+            "nesw-resize": "свюз-ресайз",
             "no-close-quote": "не-закрывать-кавычки",
             "no-drop": "не-сбрасывать",
             "no-open-quote": "не-открывать-кавычки",
@@ -671,7 +675,7 @@
                 "уменьшать"
             ],
             "scroll": "скролл",
-            "se-resize": "юз-ресайз",
+            "se-resize": "юв-ресайз",
             "semi-condensed": "полу-конденсирован",
             "semi-expanded": "полу-расширен",
             "separate": [
@@ -867,6 +871,7 @@
     {
         "before": "\\b",
         "after": "\\(",
+        "prefixed": false,
         "content": {
             "rgb": "кзс",
             "calc": "вычс",
@@ -919,6 +924,7 @@
     {
         "before": "[0-9]?\\.?[0-9]+",
         "after": "\\b",
+        "prefixed": false,
         "content": {
             "em": "эл",
             "ex": "вх",
