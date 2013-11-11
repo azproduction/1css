@@ -359,3 +359,14 @@
 нав-вверх | nav-up | Specifies where to navigate when using the arrow-up navigation key
 смещение-контура | outline-offset | Offsets an outline, and draws it beyond the border edge
 ресайз | resize | Specifies whether or not an element is resizable by the user
+
+###Extra properties
+Свойство | Свойство в CSS | Описание
+--- | --- | ---
+зум | zoom | ???
+фильтр | filter | ???
+выделение-пользователем | user-select | ???
+сглаживание-шрифта | font-smoothing | ???
+осх-сглаживание-шрифта | osx-font-smoothing | ???
+переполнение-прокрутки | overflow-scrolling | ???
+ист | src | ???
