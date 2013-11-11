@@ -1,13 +1,10 @@
 # 1css
 [![NPM Version](https://badge.fury.io/js/1css.png)]
 (https://npmjs.org/package/1css)
-
 [![Build Status](https://travis-ci.org/azproduction/1css.png?branch=master)]
 (https://travis-ci.org/azproduction/1css)
-
 [![Coverage Status](https://coveralls.io/repos/azproduction/1css/badge.png?branch=master)]
 (https://coveralls.io/r/azproduction/1css)
-
 [![Dependency Status](https://gemnasium.com/azproduction/1css.png)]
 (https://gemnasium.com/azproduction/1css)
 
