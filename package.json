@@ -23,7 +23,7 @@
         "chai": "*",
         "mocha-istanbul": "*",
         "marked": "*",
-        "coverals": "*"
+        "coveralls": "*"
     },
     "scripts": {
         "test" : "make validate",
