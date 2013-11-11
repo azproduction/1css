@@ -33,7 +33,7 @@
 блок{,ировать} | block
 жирный | bold
 более-жирный | bolder
-рамка-{блока,бокса,коробки} | border-box
+по-границе | border-box
 оба | both
 нижний | bottom
 перенос-всего | break-all
@@ -51,7 +51,7 @@
 инвертировать-колонки | column-reverse
 насыщенный | condensed
 содерж{ать,ит} | contain
-контент-{блока,бокса,коробки} | content-box
+по-содержимому | content-box
 контекстное-меню | context-menu
 копи{я,ровать} | copy
 покрыть | cover
@@ -59,7 +59,7 @@
 пунктирная | dashed
 десятичный | decimal
 десятичный-ведущий-ноль | decimal-leading-zero
-поумолчанию | default
+обычный | default
 потомки | descendants
 диск | disc
 распростран{ять,ить} | distribute
@@ -103,10 +103,10 @@
 наследовать | inherit
 начальн{ый,ая,ое} | initial
 чернила | ink
-встроенный | inline
-встроенный-блок | inline-block
-встроенный-флекс | inline-flex
-встроенная-таблица | inline-table
+строчный | inline
+строчный-блок | inline-block
+строчный-флекс | inline-flex
+строчная-таблица | inline-table
 вставка | inset
 внутри | inside
 между-кластером | inter-cluster
@@ -146,7 +146,7 @@
 не-сбрасывать | no-drop
 не-открывать-кавычки | no-open-quote
 не-повторять | no-repeat
-{ничего,нету} | none
+{нет,ничего,нету} | none
 нормальный | normal
 не-разрешен | not-allowed
 безобтекания | nowrap
@@ -160,7 +160,7 @@
 начало | outset
 снаружи | outside
 оверлайн | overline
-обивка-коробки | padding-box
+по-отбивке | padding-box
 страница | page
 пауза | paused
 указатель | pointer

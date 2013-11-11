@@ -62,7 +62,7 @@
 голова | head | Defines information about the document
 заголовок | header | Defines a header for a document or section
 гл | hr | Defines a thematic change in the content
-гтяр | html | Defines the root of an HTML document
+ягтр | html | Defines the root of an HTML document
 н | i | Defines a part of text in an alternate voice or mood
 айрамка | iframe | Defines an inline frame
 крт | img | Defines an image
@@ -133,10 +133,10 @@
 --- | --- | ---
 шаблон | template | Defines a template
 главный | main |
-хгруппа | hgroup |
+згруппа | hgroup |
 
 ### Медия и прочие
 
 Тег | Тег HTML | Описание
 --- | --- | ---
-@медия | @media | ???
+@носитель | @media | ???

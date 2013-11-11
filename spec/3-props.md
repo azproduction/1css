@@ -175,7 +175,7 @@
 ??? | drop-initial-before-align | Sets which alignment line within the initial line box is used at the secondary connection point with the initial letter box
 ??? | drop-initial-size | Controls the partial sinking of the initial letter
 ??? | drop-initial-value | Activates a drop-initial effect
-выравнивание-встроенного-блока | inline-box-align | Sets which line of a multi-line inline block align with the previous and next inline elements within a line
+выравнивание-строчного-блока | inline-box-align | Sets which line of a multi-line inline block align with the previous and next inline elements within a line
 ??? | line-stacking | A shorthand property for setting the line-stacking-strategy, line-stacking-ruby, and line-stacking-shift properties
 ??? | line-stacking-ruby | Sets the line stacking method for block elements containing ruby annotation elements
 ??? | line-stacking-shift | Sets the line stacking method for block elements containing elements with base-shift
@@ -294,7 +294,7 @@
 ###Table Properties
 Свойство | Свойство в CSS | Описание
 --- | --- | ---
-схлапывание-границы | border-collapse | Specifies whether or not table borders should be collapsed
+схлапывание-границ | border-collapse | Specifies whether or not table borders should be collapsed
 расстояние-границ | border-spacing | Specifies the distance between the borders of adjacent cells
 сторона-подписи | caption-side | Specifies the placement of a table caption
 пустые-ячейки | empty-cells | Specifies whether or not to display borders and background on empty cells in a table
@@ -306,7 +306,7 @@
 цвет | color | Sets the color of text
 направние | direction | Specifies the text direction/writing direction
 мужбуквенный-пробел | letter-spacing | Increases or decreases the space between characters in a text
-высота-линии | line-height | Sets the line height
+высота-строки | line-height | Sets the line height
 выравнивание-текста | text-align | Specifies the horizontal alignment of text
 оформление-текста | text-decoration | Specifies the decoration added to text
 отступ-текста | text-indent | Specifies the indentation of the first line in a text-block
