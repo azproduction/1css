@@ -40,3 +40,8 @@ travis: validate coveralls
 lint:
 	$(JSHINT) .
 	$(JSCS) .
+
+.PHONY: build
+build:
+	node tasks/extract-data-from-spec.js
+	./node_modules/.bin/lmd build index
