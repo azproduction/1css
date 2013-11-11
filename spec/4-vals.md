@@ -136,7 +136,7 @@
 ручной | manual
 соответствует-родителю | match-parent
 средн{ий,яя,ее} | medium
-посредне | middle
+посередине | middle
 смешенный-справа | mixed-right
 двигать | move
 с-ресайз | n-resize
@@ -260,3 +260,4 @@
 очоч-большой | xx-small
 призумить | zoom-in
 отзумить | zoom-out
+!важно | !important

@@ -126,3 +126,11 @@
 пер | var | Defines a variable
 видео | video | Defines a video or movie
 рзр | wbr | Defines a possible line-break
+
+### Дополнительные теги
+
+Тег | Тег HTML | Описание
+--- | --- | ---
+шаблон | template | Defines a template
+главный | main |
+хгруппа | hgroup |
