@@ -1,0 +1,13 @@
+{
+    "name": "index build",
+    "root": "../",
+    "output": "dist/1css.min.js",
+    "modules": {
+        "main": "lib/lmdExporter.js",
+        "1css": "lib/index.js",
+        "../data/spec": "data/spec.json"
+    },
+    "main": "main",
+    "pack": true,
+    "ie": false
+}

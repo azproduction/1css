@@ -18,6 +18,10 @@
 
 Планируется поддержка склонения слов в значениях свойств(синий, синяя, синее) и правильный порядок слов и склонение в свойствах (тень-текста вместо текст-тень).
 
+## Install
+
+`npm i 1css` for node.js and `<script src="dist/1css.min.js"></script>` for browser
+
 ## Example
 
 ### Чистый CSS с 1CSS синтаксисом
@@ -77,10 +81,23 @@
   рамка-радиус 5тч
 ```
 
+## Usage
+
+Node
+```js
+var oneCss = require('1css');
+
+oneCss.decode(oneCss.encode('div{font: Arial 1px red;}'));
+```
+
+Browser
+```js
+window['1css'].decode(window['1css'].encode('div{font: Arial 1px red;}'));
+```
+
 ## Authors
 
   * @azproduction
   * @axlerk
   * @outring
   * @olmokhov_ru
-

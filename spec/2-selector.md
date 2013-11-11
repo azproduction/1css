@@ -42,9 +42,9 @@
 спис | dir | Not supported in HTML5. Deprecated in HTML 4.01. Defines a directory list
 див | div | Defines a section in a document
 со | dl | Defines a description list
-от | dt | Defines a term/name in a description list
+оп | dt | Defines a term/name in a description list
 подч | em | Defines emphasized text
-встроенный | embed | Defines a container for an external (non-HTML) application
+вставлен{ный} | embed | Defines a container for an external (non-HTML) application
 наборполей | fieldset | Groups related elements in a form
 фигзаголовок | figcaption | Defines a caption for a <figure> element
 фигура | figure | Specifies self-contained content
@@ -117,11 +117,11 @@
 тз | th | Defines a header cell in a table
 тголова | thead | Groups the header content in a table
 время | time | Defines a date/time
-заголовок | title | Defines a title for the document
+название | title | Defines a title for the document
 тс | tr | Defines a row in a table
 трек | track | Defines text tracks for media elements (<video> and <audio>)
 тт | tt | Not supported in HTML5. Defines teletype text
-п | u | Defines text that should be stylistically different from normal text
+пдч | u | Defines text that should be stylistically different from normal text
 нс | ul | Defines an unordered list
 пер | var | Defines a variable
 видео | video | Defines a video or movie

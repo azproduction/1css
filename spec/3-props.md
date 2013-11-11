@@ -225,7 +225,7 @@
 Свойство | Свойство в CSS | Описание
 --- | --- | ---
 отбивка | padding | Sets all the padding properties in one declaration
-отбивка-сверху | padding-bottom | Sets the bottom padding of an element
+отбивка-снизу | padding-bottom | Sets the bottom padding of an element
 отбивка-слева | padding-left | Sets the left padding of an element
 отбивка-справа | padding-right | Sets the right padding of an element
 отбивка-сверху | padding-top | Sets the top padding of an element
@@ -318,7 +318,7 @@
 висячая-пунктуация | hanging-punctuation | Specifies whether a punctuation character may be placed outside the line box
 обрезка-пунктуации | punctuation-trim | Specifies whether a punctuation character should be trimmed
 выравнивание-последней-строки | text-align-last | Describes how the last line of a block or a line right before a forced line break is aligned when text-align is "justify"
-выравнивание-текста | text-justify | Specifies the justification method used when text-align is "justify"
+выключка-текста | text-justify | Specifies the justification method used when text-align is "justify"
 контур-текста | text-outline | Specifies a text outline
 переполнение-текста | text-overflow | Specifies what should happen when text overflows the containing element
 тень-текста | text-shadow | Adds shadow to text
