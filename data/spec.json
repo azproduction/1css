@@ -156,7 +156,7 @@
         "before": "\\b",
         "after": "\\s*:",
         "content": {
-            "@keyframes": "@ключевыекадры",
+            "keyframes": "ключевыекадры",
             "animation": "анимация",
             "animation-name": "имя-анимации",
             "animation-duration": "длительность-анимации",
@@ -252,7 +252,7 @@
             "font-style": "стиль-шрифта",
             "font-variant": "вид-шрифта",
             "font-weight": "вес-шрифта",
-            "@font-face": "@определение-шрифта",
+            "font-face": "определение-шрифта",
             "font-size-adjust": "подгонка-размера-шрифта",
             "font-stretch": "разрядка-шрифта",
             "content": "содержимое",
