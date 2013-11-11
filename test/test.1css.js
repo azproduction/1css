@@ -4,14 +4,18 @@
 var encode = require('..').encode,
     decode = require('..').decode,
     fs = require('fs'),
+    path = require('path'),
     expect = require('chai').expect;
 
 describe('1css', function() {
-    var bootstrapCss = fs.readFileSync(__dirname + '/fixtures/bootstrap.css', 'utf8');
+    var fixturesDir = path.join(__dirname, 'fixtures');
 
     it('should encode and decode', function() {
-        var result = decode(encode(bootstrapCss));
+        fs.readdirSync(fixturesDir).forEach(function (cssFile) {
+            var cssFileContent = fs.readFileSync(path.join(fixturesDir, cssFile), 'utf8');
+            var result = decode(encode(cssFileContent));
 
-        expect(result).to.eql(bootstrapCss);
+            expect(result).to.eql(cssFileContent);
+        });
     });
 });
