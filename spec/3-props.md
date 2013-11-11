@@ -322,6 +322,7 @@
 контур-текста | text-outline | Specifies a text outline
 переполнение-текста | text-overflow | Specifies what should happen when text overflows the containing element
 тень-текста | text-shadow | Adds shadow to text
+подгонка-размера-текста | text-size-adjust | ???
 обертка-текста | text-wrap | Specifies line breaking rules for text
 разрыв-слова | word-break | Specifies line breaking rules for non-CJK scripts
 обертка-слова | word-wrap | Allows long, unbreakable words to be broken and wrap to the next line

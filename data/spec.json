@@ -124,24 +124,28 @@
             "ul": "нс",
             "var": "пер",
             "video": "видео",
-            "wbr": "рзр"
+            "wbr": "рзр",
+            "template": "шаблон",
+            "main": "главный",
+            "hgroup": "хгруппа"
         }
     },
     {
         "before": ":",
         "after": "\\b",
         "content": {
-            ":link": ":ссылка",
-            ":visited": ":посещен",
-            ":active": ":активнен",
-            ":hover": ":завис",
-            ":focus": ":фокус",
-            ":first-letter": ":первая-буква",
-            ":first-line": ":первая-строка",
-            ":first-child": ":первый-ребенок",
-            ":before": ":до",
-            ":after": ":после",
-            ":langlanguage": ":язязык"
+            "link": "ссылка",
+            "visited": "посещен",
+            "active": "активнен",
+            "hover": "завис",
+            "focus": "фокус",
+            "first-letter": "первая-буква",
+            "first-line": "первая-строка",
+            "first-child": "первый-ребенок",
+            "before": "до",
+            "after": "после",
+            "lang": "яз",
+            "not": "не"
         }
     },
     {
@@ -264,17 +268,7 @@
             "alignment-baseline": "выравнивание-базовой",
             "baseline-shift": "сдвиг-базовой",
             "dominant-baseline": "домининация-базовой",
-            "drop-initial-after-adjust": "???",
-            "drop-initial-after-align": "???",
-            "drop-initial-before-adjust": "???",
-            "drop-initial-before-align": "???",
-            "drop-initial-size": "???",
-            "drop-initial-value": "???",
             "inline-box-align": "выравнивание-встроенного-блока",
-            "line-stacking": "???",
-            "line-stacking-ruby": "???",
-            "line-stacking-shift": "???",
-            "line-stacking-strategy": "???",
             "text-height": "высота-текста",
             "list-style": "стиль-списка",
             "list-style-image": "изображение-стиля-списка",
@@ -304,8 +298,6 @@
             "padding-left": "отбивка-слева",
             "padding-right": "отбивка-справа",
             "padding-top": "отбивка-сверху",
-            "fit": "???",
-            "fit-position": "???",
             "image-orientation": "ориентация-изображения",
             "page": "страница",
             "size": "размер",
@@ -327,24 +319,6 @@
             "page-break-before": "разрыв-страницы-до",
             "page-break-inside": "разрыв-страницы-внутри",
             "widows": "вдовы",
-            "ruby-align": "???",
-            "ruby-overhang": "???",
-            "ruby-position": "???",
-            "ruby-span": "???",
-            "mark": "???",
-            "mark-after": "???",
-            "mark-before": "???",
-            "phonemes": "???",
-            "rest": "???",
-            "rest-after": "???",
-            "rest-before": "???",
-            "voice-balance": "???",
-            "voice-duration": "???",
-            "voice-pitch": "???",
-            "voice-pitch-range": "???",
-            "voice-rate": "???",
-            "voice-stress": "???",
-            "voice-volume": "???",
             "border-collapse": "схлапывание-границы",
             "border-spacing": "расстояние-границ",
             "caption-side": "сторона-подписи",
@@ -369,6 +343,7 @@
             "text-outline": "контур-текста",
             "text-overflow": "переполнение-текста",
             "text-shadow": "тень-текста",
+            "text-size-adjust": "подгонка-размера-текста",
             "text-wrap": "обертка-текста",
             "word-break": "разрыв-слова",
             "word-wrap": "обертка-слова",
@@ -396,7 +371,7 @@
         }
     },
     {
-        "before": "\\b",
+        "before": "(?:\\b)?",
         "after": "\\b",
         "content": {
             "above": "выше",
@@ -615,7 +590,7 @@
                 "средняя",
                 "среднее"
             ],
-            "middle": "посредне",
+            "middle": "посередине",
             "mixed-right": "смешенный-справа",
             "move": "двигать",
             "n-resize": "с-ресайз",
@@ -800,6 +775,7 @@
             "xx-small": "очоч-большой",
             "zoom-in": "призумить",
             "zoom-out": "отзумить",
+            "important": "важно",
             "maroon": "марон",
             "red": [
                 "красный",
@@ -876,7 +852,12 @@
                 "серый",
                 "серая",
                 "серое"
-            ]
+            ],
+            "monospace": "моношитрый",
+            "serif": "c-засечками",
+            "sans-serif": "без-засечкек",
+            "fantasy": "фантазийный",
+            "cursive": "рукописный"
         }
     },
     {
