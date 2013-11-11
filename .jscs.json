@@ -1,7 +1,8 @@
 {
     "excludeFiles": [
         ".git/**",
-        "node_modules/**"
+        "node_modules/**",
+        "dist/**"
     ],
 
     "requireCurlyBraces": ["if", "else", "for", "while", "do"],
